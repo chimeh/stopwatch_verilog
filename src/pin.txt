@@ -1,0 +1,24 @@
+﻿NET "clock_origin"  LOC = "p128"  ;
+
+NET "start_stop"  LOC = "p38"  ;	#  SW_1 
+NET "spilt"  LOC = "p41"  ;			#  SW_2 
+
+
+#dig and seg
+NET "display_dig_sel[0]"  LOC = "p81"  ; 
+NET "display_dig_sel[1]"  LOC = "p85"  ; 
+NET "display_dig_sel[2]"  LOC = "p83"   ; 
+NET "display_dig_sel[3]"  LOC = "p82"  ; 
+NET "display_dig_sel[4]"  LOC = "p43" ; 
+NET "display_dig_sel[5]"  LOC = "p74"  ; 
+NET "display_dig_sel[6]"  LOC = "p59"  ; 
+NET "display_dig_sel[7]"  LOC = "p51"  ; 
+
+NET "seg7cod_out[0]"  LOC = "p52"  ; 
+NET "seg7cod_out[1]"  LOC = "p75"  ; 
+NET "seg7cod_out[2]"  LOC = "p58"  ; 
+NET "seg7cod_out[3]"  LOC = "p76"  ; 
+NET "seg7cod_out[4]"  LOC = "p77"  ; 
+NET "seg7cod_out[5]"  LOC = "p54"  ; 
+NET "seg7cod_out[6]"  LOC = "p53"  ; 
+NET "seg7cod_out[7]"  LOC = "p66"  ;
